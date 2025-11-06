@@ -41,7 +41,7 @@ export default function Navbar () {
             <div className="py-2 w-full flex justify-between items-center mt-4">
                 <div className="flex gap-2">
                     <CircleUserRound />
-                    <span>PhoneBook</span>
+                    <span>Lol</span>
                 </div>
 
                 <div className="border border-black/2 rounded-lg">
