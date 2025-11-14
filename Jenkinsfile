@@ -26,11 +26,11 @@ pipeline {
       steps { sh 'npm run build' }
     }
 
-    // stage('Trigger Vercel Deploy') {
-    //   steps {
-    //     sh 'curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_4iHy8Z6Epz7oXqXquXZbLi23qAzs/U0TrXQr6cd'
-    //   }
-    // }
+    stage('Trigger Vercel Deploy') {
+      steps {
+        sh 'curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_4iHy8Z6Epz7oXqXquXZbLi23qAzs/U0TrXQr6cd'
+      }
+    }
   }
 
   post {
